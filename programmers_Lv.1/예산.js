@@ -3,8 +3,8 @@ function solution(d, budget) {
   d.sort((a, b) => a - b);
 
   for (var i = 0; budget - d[i] >= 0; i++) {
-      budget -= d[i];
-      answer++;
+    budget -= d[i];
+    answer++;
   }
 
   return answer;

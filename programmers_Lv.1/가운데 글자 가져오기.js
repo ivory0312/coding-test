@@ -1,15 +1,8 @@
 function solution(s) {
   var answer = '';
-  var arr = [];
-  const l = s.length;
-  const a = s.split('');
+  const l = s.length, i = l / 2;
   
-  if (l % 2 === 0) {
-      answer = s.slice(l / 2 - 1, l / 2 + 1);
-  }
-  else {
-      answer = s[parseInt(l / 2)];
-  }
+  answer = l % 2 === 0 ? s.slice(i - 1, i + 1) : s[parseInt(i)];
       
   return answer;
 }
