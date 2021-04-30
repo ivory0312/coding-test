@@ -3,10 +3,9 @@ function solution(arr) {
   const l = arr.length;
   
   for (var i = 0; i < l; i++) {
-    answer += arr[i];
+      answer += arr[i];
   }
   
   answer /= l;
-  
   return answer;
 }
