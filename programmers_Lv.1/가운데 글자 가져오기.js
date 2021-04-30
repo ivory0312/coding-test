@@ -11,6 +11,5 @@ function solution(s) {
       answer = s[parseInt(l / 2)];
   }
       
-  console.log(a);
   return answer;
 }
