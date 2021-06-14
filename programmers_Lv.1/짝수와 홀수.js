@@ -1,6 +1,6 @@
 function solution(num) {
-  var answer = '';
+  var answer = "";
 
-  answer = num % 2 === 0 ? 'Even' : 'Odd';
+  answer = num % 2 === 0 ? "Even" : "Odd";
   return answer;
 }
