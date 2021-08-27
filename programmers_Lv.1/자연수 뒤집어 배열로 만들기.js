@@ -5,5 +5,6 @@ function solution(n) {
     .split("")
     .reverse()
     .map((a) => parseInt(a));
+
   return answer;
 }

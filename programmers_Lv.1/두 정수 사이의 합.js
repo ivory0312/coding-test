@@ -1,5 +1,6 @@
 function solution(a, b) {
   var answer = 0;
+
   if (a > b) {
     let c = a;
     a = b;
@@ -9,5 +10,6 @@ function solution(a, b) {
   for (var i = a; i <= b; i++) {
     answer += i;
   }
+
   return answer;
 }

@@ -7,5 +7,6 @@ function solution(arr) {
   }
 
   answer /= l;
+
   return answer;
 }

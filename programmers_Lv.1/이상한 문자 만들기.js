@@ -7,6 +7,7 @@ function solution(s) {
     if (a[i] == " ") {
       count = -1;
     }
+
     if (count === 0 || count % 2 === 0) {
       answer += a[i].toUpperCase();
       count++;

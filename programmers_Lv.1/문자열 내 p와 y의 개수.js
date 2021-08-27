@@ -1,6 +1,5 @@
 function solution(s) {
   var answer = true;
-  const lowS = s.toLowerCase();
   const length = s.length;
   var p = 0;
   var y = 0;

@@ -5,5 +5,6 @@ function solution(absolutes, signs) {
   for (var i = 0; i < arrLength; i++) {
     answer += signs[i] ? absolutes[i] : -absolutes[i];
   }
+
   return answer;
 }

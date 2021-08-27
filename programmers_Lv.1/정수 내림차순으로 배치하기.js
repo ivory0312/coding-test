@@ -6,5 +6,6 @@ function solution(n) {
     return b - a;
   });
   answer = parseInt(a.join(""));
+
   return answer;
 }
